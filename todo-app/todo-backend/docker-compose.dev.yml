@@ -19,6 +19,11 @@ services:
       interval: 5s
       timeout: 5s
       retries: 6
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379
+
 volumes:
   mongo_data:
 
