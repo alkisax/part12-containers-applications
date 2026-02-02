@@ -1,0 +1,19 @@
+Script started on 2026-02-02 19:23:01+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="101" LINES="37"]
+[?2004h]0;dministrator@WINDOWS-4ABEJ0B: /mnt/d/coding/FinlandMOOCFullStack/part12/part12-containers-applications[01;32mdministrator@WINDOWS-4ABEJ0B[00m:[01;34m/mnt/d/coding/FinlandMOOCFullStack/part12/part12-containers-applications[00m$ [7mdocker container run -it ubuntu bash[27m[C[Cdocker container run -it ubuntu bash
+[?2004l[?2004h]0;root@444efb94caf0: /root@444efb94caf0:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib64[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;34mmedia[0m  [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@444efb94caf0: /root@444efb94caf0:/# mkdir -p /usr/src/app
+[?2004l[?2004h]0;root@444efb94caf0: /root@444efb94caf0:/# cd [7m/usr/src/app[27m/usr/src/app
+[?2004l[?2004h]0;root@444efb94caf0: /usr/src/approot@444efb94caf0:/usr/src/app# ls
+[?2004l[?2004h]0;root@444efb94caf0: /usr/src/approot@444efb94caf0:/usr/src/app# nano index.js
+[?2004lbash: nano: command not found
+[?2004h]0;root@444efb94caf0: /usr/src/approot@444efb94caf0:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@444efb94caf0: /usr/src/approot@444efb94caf0:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@444efb94caf0: /usr/src/approot@444efb94caf0:/usr/src/app# exit
+[?2004lexit
+[?2004h]0;dministrator@WINDOWS-4ABEJ0B: /mnt/d/coding/FinlandMOOCFullStack/part12/part12-containers-applications[01;32mdministrator@WINDOWS-4ABEJ0B[00m:[01;34m/mnt/d/coding/FinlandMOOCFullStack/part12/part12-containers-applications[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-02 19:24:51+02:00 [COMMAND_EXIT_CODE="0"]
