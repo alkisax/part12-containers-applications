@@ -1,0 +1,20 @@
+services:
+  mongo:
+    image: initialized-mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    ports:
+      - 3456:27017
+
+  
+  app:
+    image: todo-backend
+    build: .
+    ports:
+      - 3000:3000
+    environment:
+      MONGO_URL: mongodb://the_username:the_password@mongo:27017/the_database
+    depends_on:
+      - mongo
